@@ -14,7 +14,7 @@ zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:*' unstagedstr 'U'
 zstyle ':vcs_info:*' stagedstr 'S'
 zstyle ':vcs_info:git*+set-message:*' hooks git-untracked
-zstyle ':vcs_info:git:*' formats '%F{cyan}(%b) %m%u%c%f'
+zstyle ':vcs_info:git:*' formats '%F{cyan}(%b)%m%u%c%f'
 setopt PROMPT_SUBST
 
 +vi-git-untracked() {
