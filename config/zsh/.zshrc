@@ -31,7 +31,7 @@ setopt PROMPT_SUBST
 }
 
 # Aliases
-alias ls='ls --color=auto'
+alias ls='ls --color=auto --almost-all'
 alias grep='grep --color=auto'
 alias vi="nvim"
 
