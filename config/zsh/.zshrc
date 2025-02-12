@@ -7,6 +7,11 @@ SAVEHIST=10000
 
 autoload -Uz compinit vcs_info
 precmd() { vcs_info }
+
+
+# Complete section
+zstyle ':completion:*' menu select
+zstyle ':completion::complete:*' gain-privileges 1
 compinit
 
 # GIT section
@@ -25,9 +30,12 @@ setopt PROMPT_SUBST
   fi
 }
 
-
+# Aliases
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+alias vi="nvim"
 
 PROMPT='%B%F{green}%n@%m%f:%F{blue}%~%f ${vcs_info_msg_0_}>%b '
 
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
