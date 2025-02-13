@@ -12,11 +12,12 @@ setopt HIST_SAVE_NO_DUPS         # Do not write a duplicate event to the history
 
 autoload -Uz compinit vcs_info
 precmd() { vcs_info }
-
+setopt autocd
 
 # Complete section
 zstyle ':completion:*' menu select
 zstyle ':completion::complete:*' gain-privileges 1
+zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'r:|=*' 'l:|=* r:|=*'
 compinit
 
 # GIT section
