@@ -1,9 +1,9 @@
 [submodule "config/zsh/.zsh/plugins/zsh-syntax-highlighting"]
-	path = stow/zsh/.zsh/plugins/zsh-syntax-highlighting
+	path = stow/zsh/.config/zsh/plugins/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
 [submodule "config/zsh/.zsh/plugins/zsh-autosuggestions"]
-	path = stow/zsh/.zsh/plugins/zsh-autosuggestions
+	path = stow/zsh/.config/zsh/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
 [submodule "config/zsh/.zsh/plugins/zsh-fzf-history-search"]
-	path = stow/zsh/.zsh/plugins/zsh-fzf-history-search
+	path = stow/zsh/.config/zsh/plugins/zsh-fzf-history-search
 	url = https://github.com/joshskidmore/zsh-fzf-history-search
