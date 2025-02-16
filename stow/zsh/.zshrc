@@ -1,4 +1,4 @@
-ZSH_DIR=~/.zsh
+ZSH_DIR=~/.config/zsh
 
 source $ZSH_DIR/history.zsh
 source $ZSH_DIR/comp.zsh
