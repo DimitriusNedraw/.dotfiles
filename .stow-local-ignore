@@ -1,7 +1,0 @@
-# Git ignore
-\.git
-\.gitignore
-\.gitmodules
-
-# Services
-\services
