@@ -7,3 +7,6 @@
 [submodule "config/zsh/.zsh/plugins/zsh-fzf-history-search"]
 	path = stow/zsh/.config/zsh/plugins/zsh-fzf-history-search
 	url = https://github.com/joshskidmore/zsh-fzf-history-search
+[submodule "services/huawei-ubuntu-sound-fix"]
+	path = services/huawei-ubuntu-sound-fix
+	url = https://github.com/Smoren/huawei-ubuntu-sound-fix
