@@ -10,6 +10,3 @@
 [submodule "services/huawei-ubuntu-sound-fix"]
 	path = services/huawei-ubuntu-sound-fix
 	url = https://github.com/Smoren/huawei-ubuntu-sound-fix
-[submodule "stow/zsh/.config/zsh/plugins/zsh-completions"]
-	path = stow/zsh/.config/zsh/plugins/zsh-completions
-	url = https://github.com/zsh-users/zsh-completions
