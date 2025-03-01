@@ -15,6 +15,7 @@ syncFolders=("Документы" "Изображения" "Музыка" "Ра�
 
 for folder in "${syncFolders[@]}"
 do
+   echo "INFO: Backuping '$folder'"
    /usr/bin/rclone sync "$folder" "GoogleDriveCrypt:$folder" \
     --verbose
 done
