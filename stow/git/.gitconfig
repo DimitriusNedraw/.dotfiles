@@ -3,3 +3,8 @@
 [user]
 	email = dimitrius.nedraw@gmail.com
 	name = Dmitry Andreev
+	signingkey = 28AA003AC06B7C24
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
