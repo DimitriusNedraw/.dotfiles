@@ -15,7 +15,6 @@ syncFolders=("Документы" "Изображения" "Музыка" "Ра�
 
 for folder in "${syncFolders[@]}"
 do
-   /usr/bin/rclone sync "~/$folder" "GoogleDriveCrypt:$folder" \
-    --log-file ~/.logs/rclone_upload.log \
+   /usr/bin/rclone sync "$folder" "GoogleDriveCrypt:$folder" \
     --verbose
 done
