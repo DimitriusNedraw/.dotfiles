@@ -1,6 +1,7 @@
 setopt autocd
 ZSH_DIR="${funcsourcetrace[1]%/*}/.config/zsh"
 
+source $ZSH_DIR/tmux.zsh
 source $ZSH_DIR/history.zsh
 source $ZSH_DIR/comp.zsh
 source $ZSH_DIR/prompt.zsh
