@@ -9,7 +9,7 @@ export RCLONE_CONFIG
 if [[ "$(pidof -x $(basename $0) -o %PPID)" ]]; then exit; fi
 
 
-syncFolders=("Документы" "Изображения" "Музыка" "Рабочий стол" "Фотографии" ".ssh" ".kube" ".gnupg")
+syncFolders=("Documents" "Pictures" "Photos" ".ssh" ".kube" ".gnupg" ".ca" ".syncthing")
 
 
 
